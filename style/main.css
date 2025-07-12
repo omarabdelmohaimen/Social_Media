@@ -79,9 +79,9 @@ main .container .links ul li a:active {
     }
 
     main .container .links ul li a {
-        height: 25px;
-        padding: 6px;
+        height: 20px;
+        padding: 10px;
         margin: 10px;
-        line-height: 25px;
+        line-height: 20px;
     }
 }
