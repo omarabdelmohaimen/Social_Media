@@ -19,6 +19,7 @@ main .container {
     padding: 30px;
     border-radius: 10px;
     height: 500px;
+    box-shadow: 1px 1px 25px rgba(255, 255, 255, 0.219);
 }
 
 main .container .image img {
@@ -61,10 +62,12 @@ main .container .links ul li a {
     line-height: 25px;
     border-radius: 10px;
     background-color: hsl(0, 0%, 20%);
+    transition: 0.5s;
 }
 
 main .container .links ul li a:hover,
 main .container .links ul li a:active {
     color: black;
     background-color: hsl(75, 94%, 57%);
+    box-shadow: 1px 1px 25px rgba(255, 255, 255, 0.753);
 }
