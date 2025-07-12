@@ -1,0 +1,70 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main .container {
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border-radius: 10px;
+    height: 80vh;
+}
+
+main .container .image img {
+    width: 80px;
+    border-radius: 50%;
+}
+
+main .container .text {
+    text-align: center;
+}
+
+main .container .text h1 {
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.863);
+}
+
+main .container .text h2 {
+    color: hsl(75, 94%, 57%);
+    font-size: 20px;
+}
+
+main .container .text p {
+    color: rgba(255, 255, 255, 0.685);
+}
+
+main .container .links ul {
+    list-style: none;
+    padding: 0;
+}
+
+main .container .links ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    width: 250px;
+    height: 25px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 20%);
+}
+
+main .container .links ul li a:hover,
+main .container .links ul li a:active {
+    color: black;
+    background-color: hsl(75, 94%, 57%);
+}
