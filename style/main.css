@@ -75,13 +75,13 @@ main .container .links ul li a:active {
 
 @media (max-width: 992px) {
     main .container {
-        height: 400px;
+        height: 450px;
     }
 
     main .container .links ul li a {
-        height: 15px;
-        padding: 7px;
+        height: 25px;
+        padding: 6px;
         margin: 10px;
-        line-height: 15px;
+        line-height: 25px;
     }
 }
