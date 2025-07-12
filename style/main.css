@@ -71,3 +71,17 @@ main .container .links ul li a:active {
     background-color: hsl(75, 94%, 57%);
     box-shadow: 1px 1px 25px rgba(255, 255, 255, 0.753);
 }
+
+
+@media (max-width: 992px) {
+    main .container {
+        height: 400px;
+    }
+
+    main .container .links ul li a {
+        height: 15px;
+        padding: 7px;
+        margin: 10px;
+        line-height: 15px;
+    }
+}
