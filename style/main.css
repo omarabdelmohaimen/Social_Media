@@ -2,6 +2,7 @@ body {
     background-color: hsl(0, 0%, 8%);
     font-family: Inter, sans-serif;
     font-size: 14px;
+    overflow-y: hidden;
 }
 
 main {
@@ -70,18 +71,4 @@ main .container .links ul li a:active {
     color: black;
     background-color: hsl(75, 94%, 57%);
     box-shadow: 1px 1px 25px rgba(255, 255, 255, 0.753);
-}
-
-
-@media (max-width: 992px) {
-    main .container {
-        height: 450px;
-    }
-
-    main .container .links ul li a {
-        height: 20px;
-        padding: 10px;
-        margin: 10px;
-        line-height: 20px;
-    }
 }
