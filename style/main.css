@@ -18,7 +18,7 @@ main .container {
     align-items: center;
     padding: 30px;
     border-radius: 10px;
-    height: 80vh;
+    height: 500px;
 }
 
 main .container .image img {
@@ -50,13 +50,13 @@ main .container .links ul {
 }
 
 main .container .links ul li a {
-    display: inline-block;
+    display: block;
     text-decoration: none;
     color: white;
     width: 250px;
     height: 25px;
     padding: 10px;
-    margin: 5px;
+    margin: 10px;
     text-align: center;
     line-height: 25px;
     border-radius: 10px;
